@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #fffff5;
+}
+
+/*menu*/
+header {
+    background-color: #69665c;
+    color: #fff;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+  
+nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 40px;
+    transition: .2s;
+}
+
+.color {
+    color: #Deaa45;
+}
+  
+nav a:hover {
+    transform: translateY(-6px);
+    color: #Deaa45;
+}
+
+/*diseño del contendo*/
+section {
+    margin: 40px 100px 0 300px;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+.parrafo-1 h2 {
+    margin-top: 50px;
+}
+
+.parrafo-1 p {
+    margin: 20px 300px 0 0;
+}
+
+.parrafo-1 ol {
+    margin: 15px 300px 0 0;
+}
+
+.parrafo-1 ul {
+    margin: 15px 300px 0 0;
+}
+
+.parrafo-1 .ul {
+    margin-bottom: 100px;
+}
+
+.imagen-1 img {
+    margin: -1220px 0 0 620px;
+    width: 300px;
+    display: flex;
+    position: absolute;
+}
+
+.imagen-2 img {
+    margin: -820px 0 0 620px;
+    width: 300px;
+    display: flex;
+    position: absolute;
+}
+
+footer { /*PIE DE PAGINA*/
+    background: #b0ada4;
+    padding-top: 50px;
+    width: 100%;
+    height: 100px;
+}
+
+.contenido {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 10pt;
+    margin-bottom: 15px;
+    text-align: center;
+    margin: 0 20px 0 100px;
+}
+
+.footer-contenido p {
+    margin: 0 20px 0 100px;
+    font-size: 9pt;
+    padding: 7px;
+}
